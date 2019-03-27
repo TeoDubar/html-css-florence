@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../Images/beige1.jpg");
+    background-size: cover;
+    
+}
+
+/*.sticky {
+    display: flex;
+   
+}*/
+
+.main-nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    background-color:  #ffd9b3;
+    -webkit-position: sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+
+li {
+    padding: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: #660022;
+    font-size: 22px;
+    padding: 8px 16px;
+    margin: 15px;
+    font-family: 'IM Fell English', serif;
+}
+
+.img_duomo {
+    width: 150px;
+    border-radius: 50%;
+    float: left;
+}
+
+h1 {
+    font-family: Gorditas, sans-serif;
+    font-size: 45px;
+    padding: 50px;
+    color: #990033;
+}
+
+h2 {
+    font-family: 'Courgette', cursive;
+    font-size: 32px;
+    color: #660022;
+}
+
+#crownJewel {
+    font-family: 'Charmonman', cursive;
+    font-size: 27px;
+}
+
+#imgMapItaly {
+    width: 18%;
+    float: left;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.firstLetter {
+    width:1em;
+    font-size: 2.3em;
+    font-family: algerian, courier;
+    line-height: 50%;
+}
+
+p {
+    font-family: "Vesper Libre", sans-serif;
+    line-height: 25px;
+    text-align: justify;
+    text-indent: 30px;
+    margin: 5px 30px;
+    padding: 15px;
+}
+
+#magiChapelFresco {
+    width: 24%;
+    float: left;
+}
+
+img.theImages {
+    margin: 8px;
+}
+
+#mediciFamilyCrest {
+    width: 14%;
+    float: left;
+}
+
+.Botticelliart {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 1fr;
+    grid-gap: 8px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.paintings {
+    height:250px;
+    border: 2px solid #721330;
+    border-radius: 4px;
+}
+
