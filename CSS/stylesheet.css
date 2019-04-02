@@ -13,11 +13,18 @@ body {
    
 }*/
 
+/*nav ul {
+    position: sticky;
+    top: 0;
+
+}*/
+
 .main-nav {
-    display: flex;
+    
     list-style-type: none;
     margin: 0;
     background-color:  #ffd9b3;
+    overflow: hidden;
     -webkit-position: sticky;
     position: sticky;
     top: 0;
@@ -26,6 +33,7 @@ body {
 
 
 li {
+    display: inline;
     padding: 10px;
 }
 
@@ -36,6 +44,15 @@ li a {
     padding: 8px 16px;
     margin: 15px;
     font-family: 'IM Fell English', serif;
+}
+
+li a:hover {
+    background-color: #FFE1CA;
+}
+
+.active {
+    color: #D0C1C7;
+    background-color: #7F0035; 
 }
 
 .img_duomo {
@@ -122,5 +139,32 @@ img.theImages {
     height:250px;
     border: 2px solid #721330;
     border-radius: 4px;
+    margin: 7px 0px;
+    transition: all 2s;
 }
 
+.paintings:hover {
+    transform: scale(1.2);
+	animation: ease-in;
+}
+
+iframe {
+    border: 1px solid;
+    box-shadow: 5px 10px 15px #7B6A6A;
+    
+}
+
+.flex-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.cathedralFlex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
